@@ -1,6 +1,10 @@
 <h1 align="center">hexroot-sec</h1>
 
 <p align="center">
+  <img src="./assets/padlock.svg" alt="hexroot-sec" width="640" />
+</p>
+
+<p align="center">
   <b>Security Researcher · OSINT Specialist · Content Creator · building tools with LLMs</b>
 </p>
 
