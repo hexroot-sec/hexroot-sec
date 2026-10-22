@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="260" viewBox="0 0 820 260" role="img" aria-label="hexroot-sec">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="280" viewBox="0 0 820 280" role="img" aria-label="hexroot-sec">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a0f1e"/>
-      <stop offset="1" stop-color="#0c1630"/>
+      <stop offset="0" stop-color="#120515"/>
+      <stop offset="1" stop-color="#1a0824"/>
     </linearGradient>
     <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="1" stop-color="#34d399"/>
+      <stop offset="0" stop-color="#ff2d55"/>
+      <stop offset="1" stop-color="#a855f7"/>
     </linearGradient>
     <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
       <feGaussianBlur stdDeviation="5" result="b"/>
@@ -14,27 +14,23 @@
     </filter>
   </defs>
 
-  <rect width="820" height="260" rx="18" fill="url(#bg)"/>
-  <rect x="1.5" y="1.5" width="817" height="257" rx="17" fill="none" stroke="url(#neon)" stroke-opacity="0.35"/>
+  <rect width="820" height="280" rx="18" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="817" height="277" rx="17" fill="none" stroke="url(#neon)" stroke-opacity="0.35"/>
 
-  <!-- cadeado, centralizado à esquerda -->
-  <g transform="translate(150 130)" filter="url(#glow)" fill="none" stroke="url(#neon)" stroke-width="7" stroke-linecap="round">
-    <!-- brilho pulsante -->
+  <!-- cadeado -->
+  <g transform="translate(150 140)" filter="url(#glow)" fill="none" stroke="url(#neon)" stroke-width="7" stroke-linecap="round">
     <g opacity="0.9">
       <animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" repeatCount="indefinite"/>
-      <!-- arco -->
       <path d="M -34 -22 v -16 a 34 34 0 0 1 68 0 v 16"/>
-      <!-- corpo -->
-      <rect x="-56" y="-22" width="112" height="86" rx="14" fill="#0a0f1e"/>
-      <!-- fechadura -->
+      <rect x="-56" y="-22" width="112" height="86" rx="14" fill="#120515"/>
       <circle cx="0" cy="12" r="9" fill="url(#neon)" stroke="none"/>
       <path d="M 0 18 v 20" stroke-width="7"/>
     </g>
   </g>
 
-  <!-- linha de varredura -->
-  <g transform="translate(150 130)">
-    <line x1="-70" x2="70" y1="-48" y2="-48" stroke="#22d3ee" stroke-width="2" opacity="0.8">
+  <!-- varredura -->
+  <g transform="translate(150 140)">
+    <line x1="-70" x2="70" y1="-48" y2="-48" stroke="#ff2d55" stroke-width="2" opacity="0.8">
       <animate attributeName="y1" values="-48;72;-48" dur="3s" repeatCount="indefinite"/>
       <animate attributeName="y2" values="-48;72;-48" dur="3s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.8;0" dur="3s" repeatCount="indefinite"/>
@@ -42,9 +38,10 @@
   </g>
 
   <!-- texto -->
-  <g font-family="Segoe UI, Ubuntu, sans-serif" fill="#e6f6ff">
-    <text x="300" y="120" font-size="46" font-weight="700" fill="url(#neon)" filter="url(#glow)">hexroot-sec</text>
-    <text x="302" y="158" font-size="19" fill="#9fb3c8">Security Researcher · OSINT · building tools with LLMs</text>
-    <text x="302" y="186" font-size="15" fill="#5f7fa6">authorized testing only · 🇧🇷</text>
+  <g font-family="Segoe UI, Ubuntu, sans-serif" fill="#f4e9ff">
+    <text x="300" y="118" font-size="46" font-weight="700" fill="url(#neon)" filter="url(#glow)">hexroot-sec</text>
+    <text x="302" y="156" font-size="19" fill="#c7a9e0">Security Researcher · OSINT · building tools with LLMs</text>
+    <text x="302" y="186" font-size="16" fill="#ff5c7a" font-weight="600">▶ YouTube · Estudando Bug Bounty</text>
+    <text x="302" y="214" font-size="15" fill="#8a6fa6">authorized testing only · 🇧🇷</text>
   </g>
 </svg>

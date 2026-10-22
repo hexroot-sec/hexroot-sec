@@ -1,7 +1,7 @@
 <h1 align="center">hexroot-sec</h1>
 
 <p align="center">
-  <img src="./assets/padlock.svg" alt="hexroot-sec" width="640" />
+  <img src="./assets/padlock.svg" alt="hexroot-sec" width="660" />
 </p>
 
 <p align="center">
