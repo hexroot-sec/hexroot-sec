@@ -31,6 +31,9 @@ I'm a **Security Researcher** focused on **OSINT** and **recon automation**, wit
 - **From:** Brazil 🇧🇷
 - **Roles:** Security Researcher · OSINT · Bug Hunter · Content Creator
 - **Working on:** recon automation, web & Android pentest, building tools with LLMs
+- **Also into:** cripto / blockchain (entusiasta)
+- **Daily driver:** Python 3 + VS Code
+- **Languages:** Português (nativo) · Inglês (básico, melhorando)
 - **Lifelong learner** — always exploring
 
 </details>
@@ -67,6 +70,7 @@ I'm a **Security Researcher** focused on **OSINT** and **recon automation**, wit
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&color=000000" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white&color=000000" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&color=000000" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&color=000000" />
 </p>
 
 ### 📌 Projects
